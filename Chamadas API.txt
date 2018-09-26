@@ -1,0 +1,20 @@
+PEDIDOS
+[POST] api/v1/pedidos
+[PUT] api/v1/pedidos/{id}
+
+ENTREGA
+[GET] api/v1/entregas/{id}
+
+EDITORAS
+[POST] api/v1/editoras
+
+AUTORES
+[POST] api/v1/autores
+
+LIVROS
+[POST] api/v1/livros/{id}
+[POST] api/v1/livros/{id}/comentario
+[GET] api/v1/livros/
+[GET] api/v1/livros/{nomePersonagem}
+[GET] api/v1/livros/{nomeAutor}
+[GET] api/v1/livros/{preco}
