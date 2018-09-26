@@ -20,7 +20,7 @@ namespace TodoApi.Controllers
         }
 
         /// <summary>
-        /// Obtém dados de um livro filtrado pelo nome de um usuário.
+        /// Obtém dados de um livro cadastrado, filtrado pelo nome de um usuário.
         /// </summary>
         /// <param name="nomePersonagem">Nome de um personagem.</param>
         [HttpGet("{nomePersonagem}/personagem")]
